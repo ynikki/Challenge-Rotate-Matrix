@@ -18,9 +18,8 @@ function MatrixRotator(matrix){
 
 //                                         |-- Must be Direction.CW
 //                                         v        or Direction.CCW
-MatrixRotator.prototype.rotate = function(direction) {
+MatrixRotator.prototype.rotate = function(direction,layer) {
   // do work here
-
   // must be a valid Direction, see Direction.js
 
 
