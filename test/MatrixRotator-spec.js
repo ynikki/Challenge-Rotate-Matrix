@@ -17,6 +17,11 @@ describe("The Matrix Rotator", function () {
                                             [8,8,9,9,9],
                                             [7,3,0,7,3]
                                           ]);
+  // matrixRotator.matrix.should.be.deep.equal( [
+  //                             ['g','d','a'],
+  //                             ['h','e','b'],
+  //                              ['i','f','c']
+  //                                         ]);
 
   });
 
@@ -30,6 +35,11 @@ describe("The Matrix Rotator", function () {
                                             [0,5,3,6,0],
                                             [8,4,3,0,9]
                                           ]);
+     // matrixRotator.matrix.should.be.deep.equal([
+     //                          ['c','f','i'],
+     //                          ['b','e','h'],
+     //                          ['a','d','g']
+     //                                      ]);
   });
 
 });    
